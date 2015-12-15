@@ -1,0 +1,129 @@
+body {
+	color: #22313F;
+	background: #DCC6E0;
+   background: -webkit-linear-gradient(to right, #D2527F, #F1A9A0);
+   background: -moz-linear-gradient(to right, #D2527F, #F1A9A0);
+   background: linear-gradient(to right, #D2527F, #F1A9A0);
+}
+a {
+	text-decoration: none;
+}
+/**HEADER & FOOTER**/
+
+.primary-footer a,
+.primary-header a {
+	color: #CF000F;
+
+}
+.primary-footer a:hover,
+.primary-header a: hover {
+	color: #648880;
+}
+
+/********NAVIGATION**************/
+.nav {
+  text-align: right;
+}
+.nav li {
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: top;
+}
+.nav li: last-child {
+	margin-right: 0;
+}
+/*******Primary Header********/
+.primary-header {
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+.logo {
+	float: left;
+	font-size: 24px;
+	font-family: "Lobster", cursive;
+	font-weight: 100;
+	letter-spacing: .5px;
+}
+.tagline {
+	text-align: right;
+  font-size: 80%;
+}
+
+.primary-nav {
+	font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+/*******PRIMARY FOOTER***/
+.primary-footer {
+	color: #F22613;
+  	font-size: 14px;
+  	padding-bottom: 44px;
+  	padding-top: 44px;
+}
+
+.primary-footer small {
+	float: left;
+	font-weight:400;
+}
+/**Intro**/
+.emphasis {
+	font-family: "Lobster", cursive;
+	font-size: 2em;
+}
+.intro {
+	font-size: 1em;
+	padding-bottom: 75px;
+	margin-top: %;
+}
+.intro h4 {
+	font-weight: bold;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: top
+	;
+}
+/**buttons**/
+.question {
+	text-align: left;
+}
+.select {
+	text-align: center;
+}
+
+.happy {
+	background-color: #96281B;
+	border-color: #96281B;
+	color: #F2F1EF;
+
+}
+.sad {
+	background-color: #DB0A5B;
+	border-color: #DB0A5B;
+	color:#F2F1EF;
+}
+.scared {
+	background-color: #D2527F;
+	border-color: #D2527F;
+	color: #F2F1EF;
+}
+.lost {
+	background-color: #F62459;
+	border-color: #F62459;
+	color: #F2F1EF;
+}
+
+.quoteSection {
+	color: #F22613;
+	text-align: center;
+	font-family: "Lobster", cursive;
+	font-size: 2em;
+	display: none;
+}
